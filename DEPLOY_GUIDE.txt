@@ -1,0 +1,90 @@
+# 🚀 GUÍA RÁPIDA: DESPLEGAR ALIA EN VERCEL EN 5 MINUTOS
+
+## PASO 1️⃣: Preparar GitHub (1 minuto)
+
+1. Ve a https://github.com/new
+2. Ingresa:
+   - Nombre: `alia-marketplace`
+   - Descripción: "ALIA - Marketplace de abogados"
+   - ✅ Público
+3. Click "Create repository"
+
+---
+
+## PASO 2️⃣: Subir el código (1 minuto)
+
+Copia estos comandos en tu terminal (en la carpeta del proyecto):
+
+```bash
+git init
+git add .
+git commit -m "ALIA marketplace - initial commit"
+git branch -M main
+git remote add origin https://github.com/TU_USUARIO/alia-marketplace.git
+git push -u origin main
+```
+
+**⚠️ Reemplaza "TU_USUARIO" con tu usuario de GitHub**
+
+---
+
+## PASO 3️⃣: Desplegar en Vercel (2 minutos)
+
+1. Ve a https://vercel.com
+2. Click "Sign Up" (crea cuenta con GitHub si no tienes)
+3. Click "Add New..." → "Project"
+4. Click "Import Project"
+5. Pega tu URL de GitHub:
+   ```
+   https://github.com/TU_USUARIO/alia-marketplace
+   ```
+6. Click "Import"
+7. Vercel auto-detectará Next.js ✅
+8. Click "Deploy"
+
+---
+
+## PASO 4️⃣: ¡Listo! 🎉
+
+En 30-60 segundos tu sitio estará en vivo en:
+
+```
+https://alia-marketplace.vercel.app
+```
+
+O tu dominio personalizado si lo conectas.
+
+---
+
+## ⚡ Si tienes problemas
+
+### Error: "git: command not found"
+→ Instala Git desde https://git-scm.com
+
+### Error: "npm not found"
+→ Instala Node.js desde https://nodejs.org
+
+### Error en Vercel: "Build failed"
+→ Revisa la pestaña "Deployments" en Vercel para ver el error específico
+
+---
+
+## 🔗 URLs importantes
+
+- **Tu repo GitHub**: https://github.com/TU_USUARIO/alia-marketplace
+- **Tu sitio en Vercel**: https://alia-marketplace.vercel.app
+- **Dashboard Vercel**: https://vercel.com/dashboard
+
+---
+
+## ✨ Próximos pasos (después de desplegar)
+
+1. ✅ Despliegue en vivo
+2. ⏭️ Integrar OAuth (Google/Meta)
+3. ⏭️ Base de datos de abogados
+4. ⏭️ Sistema de pagos
+5. ⏭️ Chat con Claude API
+
+---
+
+¿Necesitas ayuda? Revisa el archivo README.md completo.

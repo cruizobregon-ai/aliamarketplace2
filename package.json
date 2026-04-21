@@ -1,0 +1,16 @@
+{
+  "name": "alia-marketplace",
+  "version": "1.0.0",
+  "description": "ALIA - Asesoría Legal Inteligente Aplicada. Marketplace de abogados en Chile",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "^14.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "lucide-react": "^0.263.1"
+  }
+}
